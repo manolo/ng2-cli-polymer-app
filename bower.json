@@ -1,10 +1,7 @@
 {
-  "name": "manolo",
+  "name": "app",
   "description": "",
   "main": "",
-  "authors": [
-    "Manolo Carrasco <manolo@vaadin.com>"
-  ],
   "license": "MIT",
   "homepage": "",
   "ignore": [

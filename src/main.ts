@@ -1,10 +1,10 @@
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
-import { ManoloAppComponent, environment } from './app/';
+import { AppAppComponent, environment } from './app/';
 
 if (environment.production) {
   enableProdMode();
 }
 
-bootstrap(ManoloAppComponent);
+bootstrap(AppAppComponent);
 
