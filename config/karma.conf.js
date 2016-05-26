@@ -22,9 +22,11 @@ module.exports = function (config) {
       { pattern: 'dist/vendor/zone.js/dist/async-test.js', included: true, watched: false },
 
       { pattern: 'config/karma-test-shim.js', included: true, watched: true },
-      
+
+      // Load polymer polyfill (only if not chrome)
+      // 'dist/bower_components/webcomponentsjs/webcomponents-lite.js',
       // Load polymer imports
-      { pattern: 'config/polymer-elements-test.js', included: true, watched: true },
+      'dist/elements.html',
 
       // Distribution folder.
       { pattern: 'dist/**/*', included: false, watched: true }

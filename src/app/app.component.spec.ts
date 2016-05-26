@@ -1,5 +1,6 @@
 import {
   beforeEachProviders,
+  beforeEach,
   describe,
   expect,
   it,
